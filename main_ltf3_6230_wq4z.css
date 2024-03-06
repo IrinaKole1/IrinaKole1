@@ -1,0 +1,28 @@
+const getRandomElement = array => array[getRandomIndex(array)];
+let array = getRandomArray(); array.forEach(item => console.log(item));
+90,87,49,42,99,11,30,2,55,47,14,45,37,31,76,68,86,64,69,32,22,94,41,88,68,62,59,92,71,74,46,33,3,28,95,24,21,87,86,39,46,73,14,54,79,4,73,18,94,2,36,8,79,12,0,61,71,33,64,45,8,93,29,20,97,75,73,60,50,23,99,27,59,60,16,5,29,79,77,18 / apple
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+orange / true
+const getUniqueValues = array => [...new Set(array)];
+7,74,62,89,4,72,49,29,60,64,18,4,20,31,29,80,22,61,1,84,44,6,64,44,80,36,33,37,5,75,55,33,80,81 + true
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+27,75,23,0,62,68,36,65,55,71,20,81,87,0,77,79,71,24,60,66,95,83,73,7,87,19,40,10,84,70,66,22,4,69,81,22,66,54,57,0,49,22,50,66,18,49,33,58,34,40,68,43,96,36,17,6,15,78,23,82,75,87,1,20,84,17,48,88,53,58,39,58,62,48,15,44,0,24,14,21,25,83,19,36,70,51,33,48,72,10,62,4,89,4,98,43,81,20 * 53
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+console.log(getRandomString());
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const sum = (a, b) => a + b;
+const reverseString = str => str.split("").reverse().join("");
+false + banana
+const getUniqueValues = array => [...new Set(array)];
+const findLargestNumber = numbers => Math.max(...numbers);
+false / 65,58,94,42,70,58,30,61,75,18,98,82,65,11,0,97,96,33,46,27,53,92,2,79,50,78,73,1,93,85,32,69,56,27,5,31,16,49,54,62
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
