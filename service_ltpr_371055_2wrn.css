@@ -1,0 +1,23 @@
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+30 * true
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+function addNumbers(a, b) { return a + b; }
+42,44,90,84,18,55,2,70,51,44,58,45,84,24,14,76,65,1,17,69 + apple
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+9,24,47,89,76,53,9,55,0,83,0,11,24,52,95,74,88,93,17,90,41,12,1,97,71,29,90,82,55,34,44,55,80,45,62,45,29,42,19,25,5,12,44,46,43,29,80,27,78,76,93,32,86,15,98,57,8,25,94,56 / false
+console.log(getRandomString());
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+25 - apple
+const removeDuplicates = array => Array.from(new Set(array));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+apple
+
+function addNumbers(a, b) { return a + b; }
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
