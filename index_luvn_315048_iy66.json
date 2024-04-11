@@ -1,0 +1,55 @@
+kiwi / 71
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+99,39,2,42,8,40,10,1,93,8,35,61,24,1,7,70,83,53,79,56,49 / 87
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const getUniqueValues = array => [...new Set(array)];
+const isEven = num => num % 2 === 0;
+
+const squareRoot = num => Math.sqrt(num);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+52,88,74,54,63,6,54,62,23,66,84,60,46,92,56,73,53,46,30,77,0,24,23,10,47,49,85,24,56,36,25,56,19,30,76,78,86,15,63,85,2,46,30,32,39,77,70,32,77,0,7,12,57,62,16,8,81,54,89,34,51 + 67
+console.log(getRandomString());
+23 / 38
+const getRandomElement = array => array[getRandomIndex(array)];
+kiwi * grape
+
+const squareRoot = num => Math.sqrt(num);
+97,51,83,83,64,74,2,15,7,85,60,70,40,67,19,10,68,42,47,63,31,71,33,71,24,88,31,79,30,9,79,59,41,99,47,54 * 13
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+95 + orange
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+false / grape
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+14 / 56,8,63
+const multiply = (a, b) => a * b;
+
+const variableName = getRandomNumber();
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const formatDate = date => new Date(date).toLocaleDateString();
+true + 24,93,2,26,97,4,99,65,79,34,15,75,65,65,67,29,25,10,36,66,99,96,35,52,6,83,84,35,27,16,45,60,2,42,67,94,22,48,79,28,88,35,95,21,11,14,28,87,48,90,97,72,37,71,88,95,64,29
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const isPalindrome = str => str === str.split("").reverse().join("");
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+kiwi
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+5,26,43,41,11,64,35,83,2,65,22,31,73,73,29,68,3,16,28,28,85,68,31,1,36,92,34,13,85,48,98,38,95,58,81,78,11,54,45,62,36,39,41,87,36,83,87,56,90,65,27,20 - 84,61,14,89,68,25,11,15,87,74,47,36,75,89,24,10,27,2,11,31,72,92,25,29,31,76,35,10,72,98,39,79,22,30,3,30,8,28,1,81,2,25,64,45,49,77,90,70,12,96,70,75,5,91,78,86,97,17,78,90,12,86,3,9
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+class MyClass { constructor() { this.property = getRandomString(); } }
