@@ -1,0 +1,41 @@
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getRandomElement = array => array[getRandomIndex(array)];
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const randomNumber = getRandomNumber();
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+grape
+
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+orange
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sum = (a, b) => a + b;
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomElement = array => array[getRandomIndex(array)];
+39,51,35,66,11,38,35,73,27,48,63,4,26,44,69,67,51,57,56,75,89,41,85,75,24,43,30,99,69,26,52,87,62,68,28,31,0,16,53,56,69,8,13,2,77,44,58 - 69
+const getRandomElement = array => array[getRandomIndex(array)];
+false - 30
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+apple
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+let result = performOperation(getRandomNumber(), getRandomNumber());
+24 / true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const removeDuplicates = array => Array.from(new Set(array));
+console.log(getRandomString());
+
+false * kiwi
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const removeDuplicates = array => Array.from(new Set(array));
